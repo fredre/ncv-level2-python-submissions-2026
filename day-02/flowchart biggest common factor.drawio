@@ -1,0 +1,101 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="2AFbq2bNr6DIF8u9C-qQ">
+    <mxGraphModel dx="1178" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4hVIesbinCQG-sj0_vsS-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Start&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Iput higher number ( a )" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;is b == 0&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="140" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-7" edge="1" parent="1" source="4hVIesbinCQG-sj0_vsS-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4hVIesbinCQG-sj0_vsS-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Iput lower number ( b )" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-10" edge="1" parent="1" source="4hVIesbinCQG-sj0_vsS-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4hVIesbinCQG-sj0_vsS-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="430" as="sourcePoint" />
+            <mxPoint x="460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="r = a % b&amp;nbsp; (modulo)&lt;div&gt;a = b&lt;/div&gt;&lt;div&gt;b = r&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-12" edge="1" parent="1" source="4hVIesbinCQG-sj0_vsS-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4hVIesbinCQG-sj0_vsS-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="350" as="sourcePoint" />
+            <mxPoint x="640" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-13" edge="1" parent="1" source="4hVIesbinCQG-sj0_vsS-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="450" as="sourcePoint" />
+            <mxPoint x="320" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-14" connectable="0" parent="4hVIesbinCQG-sj0_vsS-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1267" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-18" edge="1" parent="1" source="4hVIesbinCQG-sj0_vsS-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4hVIesbinCQG-sj0_vsS-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="610" as="sourcePoint" />
+            <mxPoint x="460" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-19" connectable="0" parent="4hVIesbinCQG-sj0_vsS-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="no" vertex="1">
+          <mxGeometry relative="1" x="-0.2215" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-20" edge="1" parent="1" source="4hVIesbinCQG-sj0_vsS-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="630" as="sourcePoint" />
+            <mxPoint x="180" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="660" as="sourcePoint" />
+            <mxPoint x="460" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="660" as="sourcePoint" />
+            <mxPoint x="460" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="390" as="sourcePoint" />
+            <mxPoint x="180" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="dislay: Biggest common factor = a" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;END&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4hVIesbinCQG-sj0_vsS-26" edge="1" parent="1" source="4hVIesbinCQG-sj0_vsS-24" style="endArrow=classic;html=1;rounded=0;exitX=0.427;exitY=1.056;exitDx=0;exitDy=0;exitPerimeter=0;" target="4hVIesbinCQG-sj0_vsS-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="600" as="sourcePoint" />
+            <mxPoint x="760" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
